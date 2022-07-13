@@ -24,3 +24,35 @@ Examples are made by using this repo as a source.
 2. Retrieve all lines of rust code inside a directory
 
 `lcount ./lcount --extension=rs`
+
+## Supported extensions
+    Rust
+    Bicep
+    Typescript
+    Javascript
+    Lua
+    C
+    Cpp
+    CSharp
+    Go
+    Java
+    Kotlin
+    Header
+    Swift
+    Python
+    Ruby
+    Perl
+    Php
+    Erlang
+    Elixir
+    Haskell
+    Clojure
+    Svelte
+    Html
+    Css
+    Markdown
+    Yaml
+    Json
+    Toml
+    Zig
+
