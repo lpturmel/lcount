@@ -108,3 +108,31 @@ impl Lang {
         }
     }
 }
+
+pub struct LCount {
+    lines: usize,
+    nb_files: usize,
+    bytes: usize,
+}
+
+impl LCount {
+    pub fn new() -> Self {
+        Self {
+            lines: 0,
+            nb_files: 0,
+            bytes: 0,
+        }
+    }
+
+    pub fn add_line(&mut self) {
+        self.lines += 1;
+    }
+
+    pub fn add_file(&mut self) {
+        self.nb_files += 1;
+    }
+
+    pub fn add_bytes(&mut self, bytes: usize) {
+        self.bytes += bytes;
+    }
+}
